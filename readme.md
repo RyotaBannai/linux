@@ -17,7 +17,7 @@ $ [Enter] # this excutes "php artisan make:middleware MyMiddleware"
 $ cd $HOME && vim .bashrc
 # ~/.bashrc
 alias vimalas='vim ~/.bashrc' # just alias for .bashrc
-alias cplm='echo $(history -p !!) | pbcopy'
+alias cplc='echo $(history -p !!) | pbcopy'
 alias cplout='echo "$(!!)" | pbcopy'
 ```
 - and apply .bashrc every time when you log in above aliases
